@@ -12,13 +12,13 @@ Then (assuming the dropwizard app is also running), there will be 4 valid endpoi
 
 ### Using the Unpooled HttpClient
 
-- http://localhost:5050/default/small
-- http://localhost:5050/default/big
+- [http://localhost:5050/default/small](http://localhost:5050/default/small)
+- [http://localhost:5050/default/big](http://localhost:5050/default/big)
 
 ### Using the Pooled HttpClient
 
-- http://localhost:5050/pooled/small
-- http://localhost:5050/pooled/big
+- [http://localhost:5050/pooled/small](http://localhost:5050/pooled/small)
+- [http://localhost:5050/pooled/big](http://localhost:5050/pooled/big)
 
 
 You should see that `default/big` never finishes in Chrome...
